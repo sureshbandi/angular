@@ -9,6 +9,7 @@ import { SidebarModule } from './sidebar/sidebar.module';
 import { FooterModule } from './shared/footer/footer.module';
 import { NavbarModule} from './shared/navbar/navbar.module';
 import { FixedPluginModule} from './shared/fixedplugin/fixedplugin.module';
+import { ChatPluginModule } from './shared/chatplugin/chatplugin.module'
 
 
 import { AppComponent } from './app.component';
@@ -35,7 +36,8 @@ import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.compon
     NavbarModule,
     ToastrModule.forRoot(),
     FooterModule,
-    FixedPluginModule
+    FixedPluginModule,
+    ChatPluginModule
   ],
   providers: [],
   bootstrap: [AppComponent]
